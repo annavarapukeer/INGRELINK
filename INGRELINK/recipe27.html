@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Details</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background: white;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            text-align: center;
+        }
+        .back-button {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            background-color: #007BFF;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            font-size: 14px;
+            cursor: pointer;
+        }
+        .back-button:hover {
+            background-color: #0056b3;
+        }
+        .recipe-image img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            max-height: 400px;
+            object-fit: contain;
+        }
+        .ingredients-table {
+            width: 80%;
+            border-collapse: collapse;
+            margin: 20px auto; /* Centers the table */
+            text-align: left;
+        }
+        .ingredients-table th,
+        .ingredients-table td {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+        .ingredients-table th {
+            background-color: #f2f2f2;
+        }
+        .youtube-link {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            color: white;
+            background-color: #007BFF;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        .youtube-link:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="recipepage.html" class="back-button">Back</a>
+        <div class="recipe-image">
+            <h1>Idly and sambar</h1>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2lMONihVw6KkoVGmkeS2ZJNF4RghE6bd45g&s" alt="Recipe 21">
+        </div>
+        <table class="ingredients-table">
+            <thead>
+                <tr>
+                    <th>S.No</th>
+                    <th>Ingredient Name</th>
+                    <th>Link</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Dal</td>
+                    <td><a href="https://www.amazon.in/Amazon-Brand-Vedaka-Premium-Arhar/dp/B07BL2JV6Y/ref=sr_1_1_sspa?crid=30F87STHY5QBE&dib=eyJ2IjoiMSJ9.EIqxHDNsUwnyw4NbGLrf889JQkhBg-UxH2H1Q8INxz14tkHkI9kfxERZdWb7kYuabJRb96SaPHprHsmSSCaAgEA5bmaXCuUSeHwVdYYZ2VjHmVNmLpkBgDVYjTH_nXxjHl9B7ghOqeKlnOKsS-d6aLiiADKM31_i2dKKPMwYSifpe0j6IbaFRwV2WGy2zpjuDQnc5yDdlCwP4aj2XmhnS2FJFLcZyPx9v9BqoMj_F8nPL_4R8wQYlTHEjqLEuhELsiu4nhXYzFDZnxW98oj62vdKVOFD6S_JGrKUruJlZWI.cMUPX6rzl7Ewxx4dVhxynjUWni_GNMno1SlEGEqm-74&dib_tag=se&keywords=dal&nsdOptOutParam=true&qid=1735315344&sprefix=dal%2Caps%2C1237&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1" target="_blank">Buy</a></td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Tamarind</td>
+                    <td><a href="https://www.amazon.in/Sunbay-Tamarind-Pulp-Ease-Cooking/dp/B08BQXD49F/ref=sxin_16_pa_sp_search_thematic_sspa?content-id=amzn1.sym.cd33fa60-47cd-49f3-80b8-24b1f0cbef97%3Aamzn1.sym.cd33fa60-47cd-49f3-80b8-24b1f0cbef97&crid=2VMY7GILCKJ9T&cv_ct_cx=tamarind+seeds&keywords=tamarind+seeds&pd_rd_i=B08BQXD49F&pd_rd_r=74281f67-75b3-46ec-966c-ab0e116f9576&pd_rd_w=DCF6c&pd_rd_wg=UJx6D&pf_rd_p=cd33fa60-47cd-49f3-80b8-24b1f0cbef97&pf_rd_r=724FQEQ471Z470A6BEWX&qid=1735319076&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&sprefix=%2Caps%2C267&sr=1-2-ced4eeeb-b190-41d6-902a-1ecb3fb8b7c4-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9zZWFyY2hfdGhlbWF0aWM&psc=1" target="_blank">Buy</a></td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Oil</td>
+                    <td><a href="https://www.amazon.in/Fortune-Xpert-Pro-Immunity-Pouch/dp/B08X7HWQJM/ref=sr_1_6_f3_wg?almBrandId=ctnow&crid=254Z47OYE36RZ&dib=eyJ2IjoiMSJ9.tO2QfzfYmh0KkxsyLKjXimh4TK6e15e5sB2KKLJXTvnIJj_RJoJ2DphBwUoXgWl2fwFct2RLfQjW_0I52C-hoITV6-RbVJFLZ4Y--skwvNET-4ayiVXmpqtvCioa2dTG-oNS3xPzPCzty7OwkAO9vqMp-BMBqUcd3oyI5e-E7PfelakKd52djYYLtdmVtHp6fg5Z0UyLLnp64wbuxwMuBu7954JS7siUST_7VNC0p2vQfDZ3tDnJfgCmrMGHniNhT6oEiHlJPi8-Tes8ok8NGJD4lDMsU7sosbks3N6yNxs.idGiFt6ppH7Cl6EWJ_xWgnbNTcfBgTvIgQoCOGMvXtc&dib_tag=se&fpw=alm&keywords=oil+1+litre+pouch&qid=1735206439&s=nowstore&sprefix=oil%2Cnowstore%2C333&sr=1-6" target="_blank">Buy</a></td>
+                </tr>
+		<tr>
+                    <td>4</td>
+                    <td>Tomato</td>
+                    <td><a href="https://www.amazon.in/Fresh-Tomato-Hybrid-1kg-Pack/dp/B07BG6QWJK/ref=sr_1_1_f3_wg?almBrandId=ctnow&crid=11LJ8KFVCU71C&dib=eyJ2IjoiMSJ9.AyEWuICqkR_KaPENnX4vNVKmDO5uT9888e-xH5XyRZFq4u3M-6F1hsO8W2P8OgCWmXjpv_MLG1y_0wtLDx0z02H39JeqX3qQ4N1sWiHF3pIU6uK5shAqaFLmj87B1mARPxLCsn0_XYEI99ylKAAsmK9yVb7Hht6mijiI1PzzZ8cOzJ2ZKpxkCVv4l5lTO4HdMlcaqDMp-san9Dv2VMYRJ3VVbv3MYhcDrVHTOej48iK-2bqBGihvm9RYc-eMPzGkv9QDeNsunrq-fWTOx89dICxtFNdLAABYRj5lOkLg3rs.aJxDwuKXivjgw4fqNgqVIBhgZEbYWVo2h9M6nvlJKeQ&dib_tag=se&fpw=alm&keywords=tomatoes&qid=1735206526&s=nowstore&sprefix=tomato%2Cnowstore%2C336&sr=1-1" target="_blank">Buy</a></td>
+                </tr>
+		<tr>
+                    <td>5</td>
+                    <td>Green chillies</td>
+                    <td><a href="https://www.amazon.in/dp/B07BG7LB5B?ref=cm_sw_r_cp_ud_dp_6BXQ68WBKFKREZTKMZTQ_1&ref_=cm_sw_r_cp_ud_dp_6BXQ68WBKFKREZTKMZTQ_1&social_share=cm_sw_r_cp_ud_dp_6BXQ68WBKFKREZTKMZTQ_1" target="_blank">Buy</a></td>
+                </tr>
+		        <tr>
+                    <td>6</td>
+                    <td>Talimpu dhinusulu</td>
+                    <td><a href="https://www.amazon.in/Quality-Thalimpu-Ginjalu-Thaalippu-Tempering/dp/B0CR4DF58N/ref=sr_1_1?crid=2HCQ6W12UX3RZ&dib=eyJ2IjoiMSJ9._I7HT_LCLuBo0VuVnCUMjDC5VjAEKtPGmqgwdWB7oo4.x3rp9giV75TVdKNv5Lc2F_fIavt4a3S0ZR_3000rEv8&dib_tag=se&keywords=talimpu+dinusulu&qid=1735207190&sprefix=thalimpu+dhinusulu%2Caps%2C336&sr=8-1" target="_blank">Buy</a></td>
+                </tr>
+                <tr>
+		
+                    <td>7</td>
+                    <td>salt</td>
+                    <td><a href="https://www.amazon.in/Flowing-Iodised-Namak-Vacuum-Evaporated/dp/B07575FPC3/ref=sr_1_5?crid=32GT7644XM7UM&dib=eyJ2IjoiMSJ9.hvAFeup2RJNrcEmYj0vyhJhST-MQzdwivzc2zxE1v-qIPe1_frKtnwT461gRM0xnhRDpMP77NAe57LkYcgBXy2obPRv0TYtppghkoZItxqw97OHfb54IVvwi_DMhufA0MwpUYsrptrDwAqnDzU7jc88FRk7FP5x6QLr91pzHMVR_1esTEAXIJKzzQMjyh9adS_MeZ9tNxRv0DLSOLyFAmQYhPUv-zGzr0lEd_pJaEcHJzVqkjb5BykEBTfyThszqwYY591nFubxOu_eQr24CVojrS1OjLE9fSSCp66roV8Y.zpcCANLTNgobFhH7mla61dVuyViycTF1A-xVvhml6nk&dib_tag=se&keywords=salt+1kg&qid=1735207261&sprefix=salt%2Caps%2C307&sr=8-5" target="_blank">Buy</a></td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td>ginger-garlic paste</td>
+                    <td><a href="https://www.amazon.in/Catch-Ginger-Garlic-Paste-200/dp/B083QDBBBW/ref=sr_1_1_f3_wg_sspa?almBrandId=ctnow&crid=Q86SIR6Q8B87&dib=eyJ2IjoiMSJ9.1FUIpW618Necv0rxYSeb80-nIkgvZTHhBicPRO-qjNvGRB5YII4hCSZzkNVVzVAHBuizoEsI2wLRHIEZNBhIpilPdzpvpPKwflj-mr33OmwA7_VntBwSZfOcu0NrQ_Y0zDzohVMMvhOYqb-qETm2qIt-oteBAX3rIajMKxXf2fACAwX1SY4gW3brxao52uKcEliel3mtxAn27cEuAfMUdVDviTKqfmQ3BjzpXXypuvB0xgA690zap-ZQpNR_5uwC375w_MViabHitlYeU01F9V5jGVDIbCBfdbH8j0SaByE.PwTb9js4RLYJW7b875REYfvbiRkKAYSAefu8W4gxOno&dib_tag=se&fpw=alm&keywords=ginger+garlic&qid=1735228335&s=nowstore&sprefix=Ginger%2Cnowstore%2C275&sr=1-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1" target="_blank">Buy</a></td>
+                </tr>
+                <tr>
+                    <td>9</td>
+                    <td>carrot</td>
+                    <td><a href="https://www.amazon.in/Fresh-Carrot-Orange-500g-Pack/dp/B07BG5GN6V/ref=sr_1_1_f3_0g_fs?crid=1VSXKMJKOBM0G&dib=eyJ2IjoiMSJ9.4L-QwARcxe3rUKWU-0fa4T5DBvjyHssEJiIfALKKRyYqicDyyiXCix-SnzSB9YCzMjCB-b_r1-TNgsRbIpx8FDkcqjkyQDzzWCYdkY3OmiA--49zZHXV2wEIOnd-ipiUssqcEI_EDyk1Od6vUgk_st8mtRY7C-RoEWwEtV3LiBmTuy2rR0M10a1wXotWjYqw19t4Nf-8MkZducJnRbUUN4qDRp6vqUXx2xdLiGZ4z5f2DULzYwJJxFGNp1Lo-HQcdalcrbWpmJl8qL4wEAWJc4kdYDPXRcOuzPbQgSTuh4I.WxfRaBcZJkqqCtYaEMwKGOcCELw6YSjW3g0dBrJL9uA&dib_tag=se&keywords=drumstick+vegetable&qid=1735319189&s=grocery&sprefix=drums%2Cgrocery%2C380&sr=1-1" target="_blank">Buy</a></td>
+                </tr>
+                <tr>
+                    <td>10</td>
+                    <td>Lady finger</td>
+                    <td><a href="https://www.amazon.in/Fresh-Bhendi-500g-Pack/dp/B07BG7D7HF/ref=sr_1_3_f3_0g_fs?crid=1VSXKMJKOBM0G&dib=eyJ2IjoiMSJ9.4L-QwARcxe3rUKWU-0fa4T5DBvjyHssEJiIfALKKRyYqicDyyiXCix-SnzSB9YCzMjCB-b_r1-TNgsRbIpx8FDkcqjkyQDzzWCYdkY3OmiA--49zZHXV2wEIOnd-ipiUssqcEI_EDyk1Od6vUgk_st8mtRY7C-RoEWwEtV3LiBmTuy2rR0M10a1wXotWjYqw19t4Nf-8MkZducJnRbUUN4qDRp6vqUXx2xdLiGZ4z5f2DULzYwJJxFGNp1Lo-HQcdalcrbWpmJl8qL4wEAWJc4kdYDPXRcOuzPbQgSTuh4I.WxfRaBcZJkqqCtYaEMwKGOcCELw6YSjW3g0dBrJL9uA&dib_tag=se&keywords=drumstick+vegetable&qid=1735319189&s=grocery&sprefix=drums%2Cgrocery%2C380&sr=1-3" target="_blank">Buy</a></td>
+                </tr>
+                <tr>
+                    <td>11</td>
+                    <td>Bottle gaurd</td>
+                    <td><a href="https://www.amazon.in/Fresh-Bottle-Gourd-Piece-Pack/dp/B07BG79ZFZ/ref=sr_1_1_f3_0o_fs?crid=2QNCMVBRXVLZH&dib=eyJ2IjoiMSJ9.qHxkYVSgS-LpXclChy-w9i-1h8drz3OZBp3pREXbd42WLfRhm8LoUK02xGq_xp2mb19aWLpRvFM4JkKE0noplvP4Za3a-kph0DR7XHYlFBVDl-ZQeLHydvjgDbsvUlZwNVsrMNcF49x44uUcUsimb51cu9eEeKzbxrnWLHfX_wypSOWgH8RuxpXZbRPWwJ87IuA4wBEhS9szezteQSyWoWRoEZTxiu5hh7002H-JgrtbiD8qc8-UiqAItg8bwZalDhyhL0P7aHg208Oe3OUjwQHn_VxR4EztFDE3W19daaQ.MvLF68g6-fMEgXVpghjkbd3sfq_A2EBLLuR0o7Qctyg&dib_tag=se&keywords=bottle%2Bgourd%2Bin%2Bfresh%2Bvegetables&qid=1735319421&sprefix=bott%2Caps%2C481&sr=8-1&th=1" target="_blank">Buy</a></td>
+                </tr>
+                <tr>
+                    <td>12</td>
+                    <td>Idili rava</td>
+                    <td><a href="https://www.amazon.in/Amazon-Brand-Vedaka-Idli-Rawa/dp/B08JDK4LLG/ref=sr_1_6_f3_0o_fs?crid=36MNL91SDPS6A&dib=eyJ2IjoiMSJ9.fyyKfLLiDB_aP8KCUSCQzH328zjxjfYhguvViVqEYVsIic49nEcnD5FtFUvgaQuFRQfZkVc-vkGPCmfV4tFgpKSRwVv4ApKRa_ahDuCFSazR67xAXE6Hvv6avKUGqnPWAH8H3nbLp1kN1msh7Sm3jR0YBh2hgQSZAz7G0n7JOrEuwHrOhnnlqIbCG7Xh5m_RLqysvmgBuadeCzQLi7ljw6GcfOFHNcD_JGdgw_fxGWjA887Tgk4O_of2o0kDaSdbF9GUdxIFut-p0w8C3jrKL7IwnOOAC2-P1Od-_tGI8SI.SrzbOrET84ZnmpHwzzP8bAlMFY9pJq_7oXCB65b1ehU&dib_tag=se&keywords=idli+rava&qid=1735319487&sprefix=Idly+%2Caps%2C273&sr=8-6" target="_blank">Buy</a></td>
+                </tr>
+        </table>
+        <a href="https://www.youtube.com/watch?v=vs9mgGNF4zw" target="_blank" class="youtube-link">Watch Recipe on YouTube</a>
+    </div>
+</body>
+</html>

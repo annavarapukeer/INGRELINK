@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Details</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background: white;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            text-align: center;
+        }
+        .back-button {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            background-color: #007BFF;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            font-size: 14px;
+            cursor: pointer;
+        }
+        .back-button:hover {
+            background-color: #0056b3;
+        }
+        .recipe-image img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            max-height: 400px;
+            object-fit: contain;
+        }
+        .ingredients-table {
+            width: 80%;
+            border-collapse: collapse;
+            margin: 20px auto; /* Centers the table */
+            text-align: left;
+        }
+        .ingredients-table th,
+        .ingredients-table td {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+        .ingredients-table th {
+            background-color: #f2f2f2;
+        }
+        .youtube-link {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            color: white;
+            background-color: #007BFF;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        .youtube-link:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="recipepage.html" class="back-button">Back</a>
+        <div class="recipe-image">
+            <h1>Boori</h1>
+            <img src="https://www.sailusfood.com/wp-content/uploads/borellu1-280x165.jpg" alt="Recipe 1">
+        </div>
+        <table class="ingredients-table">
+            <thead>
+                <tr>
+                    <th>S.No</th>
+                    <th>Ingredient Name</th>
+                    <th>Link</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Channa Dal</td>
+                    <td><a href="https://www.amazon.in/Amazon-Brand-Vedaka-Popular-Chana/dp/B07BL73DGR/ref=sr_1_1_f3_wg_sspa?almBrandId=ctnow&crid=2YIAIXF3L3FF&dib=eyJ2IjoiMSJ9.ZwVzdtNS3itnut3UlfRhbKFMEW901uHtYkN2op7-IAMXgcoBYpg7JOjZQIKnurJovS4UvcRZ_DqjvnPSSdFTYalWhOxb1h2VPtaYhjoYePWL8E6tpAQHMvWg_GCi9MLr2n9ts7OPMuPtztojIEXA4vI0nlhiADfwOwA6tONiu-j0k3WafsAxiMtDmyfSPVj_ZwMJCkzw45_XL9G9o0l2fOV_DfMbEMVuCtorUMT2N-UIuyd4A6L3jhMsOvQNk_Bm6SWKJpSPj83qm5MCnAw7bxGbXsuTGrM6fuWEH1WJ9PA.NwSPG6QFMsjAP_OxaKCrUq5C9LPLgdIV0GGLsWgbTRo&dib_tag=se&fpw=alm&keywords=chana+dal&qid=1735129426&s=nowstore&sprefix=channa%2Cnowstore%2C229&sr=1-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1" target="_blank">Buy</a></td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Urad Dal</td>
+                    <td><a href="https://www.amazon.in/Tata-Sampann-Urad-1kg/dp/B074N99PJH/ref=sr_1_1_f3_wg_sspa?almBrandId=ctnow&dib=eyJ2IjoiMSJ9.JERLXL9dlCKwhmtzeZvhc0kbuMW0QY90enMICZKn-vs-Rs71W54zE02--DHdVAfTUgEXHfzY9W1zs5YP_NQ1vv8mzYOzJi4vhBtWfy7ZVgTzL60ukqfLL1OhaEXgUIoj2Zs7ByBo9F4WHzlBh0cFfc5VRjhd47xWFs_7SYXZA4ZquxMES7QDMrW-IFEzLE1zzNfN01utZqzTd1lPGynnhJQ8krrxFN24V5fgMTUlnm1e1i8FcLXfjzNFKpVun6WL50TXwvrbmPnUZ4dQIBDb46l4jRoNTWN8kJc9YB6hYmc.wnKOafL6iYEQ0iaExEv5jAxXdKsHUT1dpB0EQl6PvmI&dib_tag=se&fpw=alm&keywords=urad+dal&qid=1735129504&s=nowstore&sr=1-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1" target="_blank">Buy</a></td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Jaggery</td>
+                    <td><a href="https://www.amazon.in/More-Loose-Jaggery-1-kg/dp/B0D98FGMHZ/ref=sr_1_1_f3_wg?almBrandId=ctnow&dib=eyJ2IjoiMSJ9.fskQVpDEmN0muvVEG_cswrqPD65ZrFi7bG8FPZzRKVmsYV6csrYpZS19COiSR88zorp50BlQgszkq2O-sxF-NDCJen0obi82bM1JUYLb8WQFx5aEfOkJq1V94Vg9qeb4CmPixbcXMjBG0n-DCxY6Zw0Fjiw7P2z4fxx50gT4kpI6bRFcwyzCGXg3w0jncPuixgZ66H0Ya1ExmKfTQHFl9C2_DZ5VQpe99CJ5yRMOudgPUIiYAD-NU2p4u2tmTMPMIWVhIrs5LPxLRzsZcEng0i64oLf4LeWYgUWv89sn4fI.eo8q50culxnagm67zs8uV1yatPOsHDrREU6R_LCC99s&dib_tag=se&fpw=alm&keywords=jaggery&qid=1735129606&s=nowstore&sr=1-1" target="_blank">Buy</a></td>
+                </tr>
+                <tr>
+                   <td>4</td>
+                   <td>Rice</td>
+                   <td><a href="https://www.amazon.in/Amazon-Brand-Vedaka-Kolam-Steamed/dp/B07F2ZPMHW/ref=sr_1_2_f3_wg_sspa?almBrandId=ctnow&crid=S4P0VP5UJLM2&dib=eyJ2IjoiMSJ9.9f3a4_bh2FTd9zKHuLvxDNdXvEBFJcGPfLL3bHdZO-AIXLvPCSj6FEweNigZkgiNFvbbq_N-469mEtwAlO62aTSnODcS6ck17I0WxNjexqeYuNDQnzjRlHCGpMsHAv7iiUoYSRnMmlHYAy5Mo0ck3T1klMhQW7rD9k1HFV_qzkgbju0we-yg6gSxrAO6ZDb06FRwrNn1GTsDPde7VqUobyx10A9Ww32Sxo2uOP1s-ln3pY8n4REx4XfvUKJ6Sw9DqQMmmCuzkhgGUZP7K5vhEy2JnPN1IQHkSo7ig7fGbgU.MDK0IDNYxplXfh9hgjo0x8dqpanbCjgeVpOd6bIptyM&dib_tag=se&fpw=alm&keywords=rice%2B1%2Bkg&qid=1735129647&s=nowstore&sprefix=r%2Cnowstore%2C269&sr=1-2-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1"target="_blank">Buy</a></td>
+                </tr>
+            </tbody>
+        </table>
+        <a href="https://www.youtube.com/watch?v=Eb1p0C_NOaE" target="_blank" class="youtube-link">Watch Recipe on YouTube</a>
+    </div>
+</body>
+</html>
